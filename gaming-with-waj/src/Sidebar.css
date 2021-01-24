@@ -1,0 +1,21 @@
+.sidebar {
+    flex: 0.2;
+}
+
+.sidebar > hr {
+    height: 1px;
+    border: 0;
+    background-color: lightgray;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.sidebar__icon {
+    color: coral;
+    text-decoration: none;
+}
+
+.sidebar__liked {
+    display: flex;
+    align-items: center;
+}

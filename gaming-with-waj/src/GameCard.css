@@ -1,0 +1,36 @@
+.gameCard {
+    margin-bottom: 40px;
+    width: 270px;
+}
+
+.gameCard__thumbnail {
+    height: 140px;
+    width: 250px;
+    object-fit: contain;
+}
+
+.gameCard__info {
+    display: flex;
+    margin-top: 10px;
+    padding-right: 30px;
+}
+
+.gameCard__text {
+    margin-left: 15px;
+}
+
+.gameCard__text > h6 {
+    font-size: 10px;
+    color: gray;
+}
+
+.gameCard__avatar {
+    height: 40px !important;
+    width: 40px !important;
+}
+
+.gameCard__likeBtn, .gameCard__likeBtn:focus {
+    border: none;
+    margin-left: 10px;
+    cursor: pointer;
+}

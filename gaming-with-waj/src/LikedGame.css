@@ -1,0 +1,23 @@
+.likedGame {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.likedGame__thumbnail {
+    height: 140px;
+    width: 250px;
+    object-fit: contain;
+}
+
+.likedGame__info {
+    padding-left: 20px;
+}
+
+.likedGame__text > h6 {
+    color: gray;
+}
+
+.likedGame__removeBtn, .likedGame__removeBtn:focus {
+    margin-top: 10px;
+    cursor: pointer;
+}
